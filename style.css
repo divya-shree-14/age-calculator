@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, lightblue, lavender);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    max-width: calc(100% - 60px);
+    box-shadow: 0 5px 15px gray;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid silver;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+#result {
+    margin-top: 20px;
+    color: darkgreen;
+    font-weight: bold;
+    line-height: 1.8;
+}
